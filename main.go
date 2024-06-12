@@ -28,9 +28,9 @@ func main() {
 
 	owner := crypto.PubkeyToAddress(*publicKeyOk)
 	spender := common.HexToAddress("0x5DDdbb3B1c528c5c4d2C805ba0dAd7a412e1fD50")
-	verifyingContract := common.HexToAddress("0x658e5ea3c7690f0626aff87ced6fc30021a93657")
+	verifyingContract := common.HexToAddress("0xA8AA3b44Afb4aA219ee12Ca4CE93C2081767BfDb")
 	nonce := 55      // Must fetch from blockchain (using polygonscan for example)
-	chainId := 80001 // 80001 for Mumbai, 137 for Polygon
+	chainId := 80002 // 80002 for Amoy, 137 for Polygon
 	d := time.Now().Add(60 * 60 * time.Second).Unix()
 	value := 7500 // Two decimal places
 
