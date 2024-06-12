@@ -27,7 +27,7 @@ func main() {
 	}
 
 	owner := crypto.PubkeyToAddress(*publicKeyOk)
-	spender := common.HexToAddress("0xe41D3fcBa696B67311Dcb1c94193fb829fd6a0e2")
+	spender := common.HexToAddress("0x655328270123049AE1337C05B640213b1Ad081aB")
 	verifyingContract := common.HexToAddress("0xA8AA3b44Afb4aA219ee12Ca4CE93C2081767BfDb")
 	nonce := 55      // Must fetch from blockchain (using polygonscan for example)
 	chainId := 80002 // 80002 for Amoy, 137 for Polygon
